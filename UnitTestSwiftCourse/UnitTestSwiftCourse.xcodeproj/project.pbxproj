@@ -16,6 +16,7 @@
 		1BE8BA302A6B74AE00EEFB14 /* UnitTestSwiftCourseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8BA2F2A6B74AE00EEFB14 /* UnitTestSwiftCourseTests.swift */; };
 		1BE8BA3A2A6B74AE00EEFB14 /* UnitTestSwiftCourseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8BA392A6B74AE00EEFB14 /* UnitTestSwiftCourseUITests.swift */; };
 		1BE8BA3C2A6B74AE00EEFB14 /* UnitTestSwiftCourseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8BA3B2A6B74AE00EEFB14 /* UnitTestSwiftCourseUITestsLaunchTests.swift */; };
+		1BE8BA4A2A6B7CD700EEFB14 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8BA492A6B7CD700EEFB14 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1BE8BA352A6B74AE00EEFB14 /* UnitTestSwiftCourseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestSwiftCourseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE8BA392A6B74AE00EEFB14 /* UnitTestSwiftCourseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestSwiftCourseUITests.swift; sourceTree = "<group>"; };
 		1BE8BA3B2A6B74AE00EEFB14 /* UnitTestSwiftCourseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestSwiftCourseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1BE8BA492A6B7CD700EEFB14 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		1BE8BA172A6B74AD00EEFB14 /* UnitTestSwiftCourse */ = {
 			isa = PBXGroup;
 			children = (
+				1BE8BA482A6B7CC800EEFB14 /* xctest */,
 				1BE8BA182A6B74AD00EEFB14 /* AppDelegate.swift */,
 				1BE8BA1A2A6B74AD00EEFB14 /* SceneDelegate.swift */,
 				1BE8BA1C2A6B74AD00EEFB14 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				1BE8BA3B2A6B74AE00EEFB14 /* UnitTestSwiftCourseUITestsLaunchTests.swift */,
 			);
 			path = UnitTestSwiftCourseUITests;
+			sourceTree = "<group>";
+		};
+		1BE8BA482A6B7CC800EEFB14 /* xctest */ = {
+			isa = PBXGroup;
+			children = (
+				1BE8BA492A6B7CD700EEFB14 /* Calculator.swift */,
+			);
+			path = xctest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BE8BA1D2A6B74AD00EEFB14 /* ViewController.swift in Sources */,
+				1BE8BA4A2A6B7CD700EEFB14 /* Calculator.swift in Sources */,
 				1BE8BA192A6B74AD00EEFB14 /* AppDelegate.swift in Sources */,
 				1BE8BA1B2A6B74AD00EEFB14 /* SceneDelegate.swift in Sources */,
 			);
