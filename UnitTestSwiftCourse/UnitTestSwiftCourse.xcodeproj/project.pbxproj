@@ -17,6 +17,7 @@
 		1BE8BA3A2A6B74AE00EEFB14 /* UnitTestSwiftCourseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8BA392A6B74AE00EEFB14 /* UnitTestSwiftCourseUITests.swift */; };
 		1BE8BA3C2A6B74AE00EEFB14 /* UnitTestSwiftCourseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8BA3B2A6B74AE00EEFB14 /* UnitTestSwiftCourseUITestsLaunchTests.swift */; };
 		1BE8BA4A2A6B7CD700EEFB14 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8BA492A6B7CD700EEFB14 /* Calculator.swift */; };
+		1BE8BA4D2A6B7E2100EEFB14 /* CalculatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8BA4C2A6B7E2100EEFB14 /* CalculatorTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1BE8BA392A6B74AE00EEFB14 /* UnitTestSwiftCourseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestSwiftCourseUITests.swift; sourceTree = "<group>"; };
 		1BE8BA3B2A6B74AE00EEFB14 /* UnitTestSwiftCourseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestSwiftCourseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1BE8BA492A6B7CD700EEFB14 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		1BE8BA4C2A6B7E2100EEFB14 /* CalculatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		1BE8BA2E2A6B74AE00EEFB14 /* UnitTestSwiftCourseTests */ = {
 			isa = PBXGroup;
 			children = (
+				1BE8BA4B2A6B7E0600EEFB14 /* xctest */,
 				1BE8BA2F2A6B74AE00EEFB14 /* UnitTestSwiftCourseTests.swift */,
 			);
 			path = UnitTestSwiftCourseTests;
@@ -134,6 +137,14 @@
 			isa = PBXGroup;
 			children = (
 				1BE8BA492A6B7CD700EEFB14 /* Calculator.swift */,
+			);
+			path = xctest;
+			sourceTree = "<group>";
+		};
+		1BE8BA4B2A6B7E0600EEFB14 /* xctest */ = {
+			isa = PBXGroup;
+			children = (
+				1BE8BA4C2A6B7E2100EEFB14 /* CalculatorTest.swift */,
 			);
 			path = xctest;
 			sourceTree = "<group>";
@@ -281,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BE8BA302A6B74AE00EEFB14 /* UnitTestSwiftCourseTests.swift in Sources */,
+				1BE8BA4D2A6B7E2100EEFB14 /* CalculatorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
